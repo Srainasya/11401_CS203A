@@ -17,7 +17,7 @@ Tuesday 15:10–17:00 (R1102)
 - Student ID：1131401
 - Education:
 
-|                   | School   |
+|Level              | School   |
 |-------------------|----------|
 | Elementary School | 上智國小 |
 | Junior High School| 二重國中 |
