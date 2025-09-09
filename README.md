@@ -17,4 +17,4 @@ Tuesday 15:10–17:00 (R1102)
 - Student ID：1131401
 
 ## 📂 Course Description
-This repository is primarily dedicated to documenting my learning process and assignments for**CS203A Data Structures**I will continue updating it with lecture notes, code examples, and practice exercises in the future.
+The Data Structure course introduces fundamental concepts of organizing, processing, and storing data efficiently. Students will learn both theoretical principles and practical applications of data structures, along with algorithm analysis techniques to evaluate performance. The course emphasizes problem-solving skills through programming assignments and projects.
