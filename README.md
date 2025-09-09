@@ -16,9 +16,11 @@ Tuesday 15:10–17:00 (R1102)
 - Student: 楊沁昀
 - Student ID：1131401
 - Education:
-- | Elementary School | 上智國小 |
-| Junior High School | 二重國中 |
-| Senior High School | 竹東高中 |
+| Level             | School   |
+|-------------------|----------|
+| Elementary School | 上智國小 |
+| Junior High School| 二重國中 |
+| Senior High School| 竹東高中 |
 
 ## 📂 Course Description
 The Data Structure course introduces fundamental concepts of organizing, processing, and storing data efficiently. Students will learn both theoretical principles and practical applications of data structures, along with algorithm analysis techniques to evaluate performance. The course emphasizes problem-solving skills through programming assignments and projects.
