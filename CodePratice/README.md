@@ -19,7 +19,7 @@
   - **Possible relocation** : If enough free space is not available after the original block, `realloc` may allocate a new memory block elsewhere, copy the old data, and free the original one.  
  → That’s why sometimes the array’s base address changes after `realloc`.
 
-    |                     | Before      | after       |
+    |                     | before      | after       |
     |---------------------|-------------|-------------|
     | Size                | 10 integers | 20 integers |
     | Start Address       | 0x...B81450 | 0x...B81450 |
