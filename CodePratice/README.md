@@ -19,12 +19,12 @@
   - **Possible relocation** : If enough free space is not available after the original block, `realloc` may allocate a new memory block elsewhere, copy the old data, and free the original one.  
  → That’s why sometimes the array’s base address changes after `realloc`.
 
-|                     | Before      | after       |
-|---------------------|-------------|-------------|
-| Size                | 10 integers | 20 integers |
-| Start Address       | 0x...B81450 | 0x...B81450 |
-| End Address         | 0x...B814EC | 0x...B8158C |
-| Each integer takes  | 4 bytes     | 4 bytes     |
+  |                     | Before      | after       |
+  |---------------------|-------------|-------------|
+  | Size                | 10 integers | 20 integers |
+  | Start Address       | 0x...B81450 | 0x...B81450 |
+  | End Address         | 0x...B814EC | 0x...B8158C |
+  | Each integer takes  | 4 bytes     | 4 bytes     |
   
 - Extend this concept to 2D, 3D, or higher-dimensional arrays to explore how memory is allocated for multidimensional arrays.
 - Execute the binary code multiple times to observe the memory locations during the initial allocation with malloc and subsequent expansion with realloc.
