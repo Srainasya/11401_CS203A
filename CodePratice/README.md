@@ -14,7 +14,7 @@
   printf("Index %d -> Value: %d, Address: %p\n", i, array[i], (void*)&array[i]);
   
 - Compare the memory layout before and after reallocation to understand the behavior of dynamic arrays.
-|                     | Before      | after       |
+- |                     | Before      | after       |
 |---------------------|-------------|-------------|
 | Size                | 10 integers | 20 integers |
 | Start Address       | 0x...B81450 | 0x...B81450 |
