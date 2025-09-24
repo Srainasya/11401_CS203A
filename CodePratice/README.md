@@ -27,5 +27,6 @@
     | Each integer takes  | 4 bytes     | 4 bytes     |
   
 - Extend this concept to 2D, 3D, or higher-dimensional arrays to explore how memory is allocated for multidimensional arrays.
+  - 2D array [practice_array_2_2](array_2_2.c)
 - Execute the binary code multiple times to observe the memory locations during the initial allocation with malloc and subsequent expansion with realloc.
  
