@@ -28,4 +28,4 @@
   
 - Extend this concept to [2D](array_2_2.c), 3D, or higher-dimensional arrays to explore how memory is allocated for multidimensional arrays.
 - Execute the binary code multiple times to observe the memory locations during the initial allocation with malloc and subsequent expansion with realloc.
- 
+  -Addresses may change between runs; realloc may expand in place or relocate memory depending on availability.
