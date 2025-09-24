@@ -8,7 +8,7 @@
   - Add Header files, main(), error checking for memory allocation, memory deallocation
 
 ### Practice II: Observing Array Behavior
-- Use the [example C code](example_array.c) to study memory allocation with `malloc` and `realloc`.
+- Use the [example C code](array_2.c) to study memory allocation with `malloc` and `realloc`.
 - Add the following line to observe memory addresses during execution:
   ```c
   printf("Index %d -> Value: %d, Address: %p\n", i, array[i], (void*)&array[i]);
