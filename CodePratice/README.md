@@ -14,9 +14,9 @@
   printf("Index %d -> Value: %d, Address: %p\n", i, array[i], (void*)&array[i]);
   
 - Compare the memory layout before and after reallocation to understand the behavior of dynamic arrays.
-  -**Realloc extended in place** : In this run, `realloc` kept the same starting address and simply enlarged the block.
-  -**Continuous block preserved** : The memory remained contiguous, and old values were not moved.
-  -**Possible relocation** : If enough free space is not available after the original block, `realloc` may allocate a new memory block elsewhere, copy the old data, and free the original one.  
+  - **Realloc extended in place** : In this run, `realloc` kept the same starting address and simply enlarged the block.
+  - **Continuous block preserved** : The memory remained contiguous, and old values were not moved.
+  - **Possible relocation** : If enough free space is not available after the original block, `realloc` may allocate a new memory block elsewhere, copy the old data, and free the original one.  
  → That’s why sometimes the array’s base address changes after `realloc`.
 
 - Extend this concept to 2D, 3D, or higher-dimensional arrays to explore how memory is allocated for multidimensional arrays.
